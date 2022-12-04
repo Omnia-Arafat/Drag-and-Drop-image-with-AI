@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:#edf6f9;
+    font-family: sans-serif;
+}
+
+.image-container{
+position: absolute;
+width: 50%;
+height: 50%;
+top: 54%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
+border: 4px #005f73 dashed;
+}
+.photo-image-class{
+
+    max-width: 100%;
+    max-height: 100%;
+}
+.file-upload-section{
+
+margin: auto;
+margin-top: 38%;
+font-weight: bolder;
+width: 50%;
+/* height: 59px; */
+padding: 4px;
+color: white;
+text-align: center;
+background-color: #83c5be;
+cursor: pointer;
+
+}
+#foto-file{
+    display: none;
+}
